@@ -1,6 +1,4 @@
-
-           % 创建一个空的矩阵，用于存储窗口内障碍物的数量
-        window_count = 50 / window_size; % 计算窗口的数量
+   window_count = 50 / window_size; % 计算窗口的数量
         obstacle_counts = zeros(window_count, window_count); % 创建一个全零矩阵来存储障碍物数量
 for x_x = 1:window_count
     for y_y = 1:window_count
